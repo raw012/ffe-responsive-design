@@ -4,11 +4,17 @@ Center align the items across the horizontal axis */
 .container {
   padding: 1rem;
   border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Activity #1: Use flexbox to put the name and profile icon next to each other. 
   Center the items across the vertical axis. Add a gap of 1rem. */
 .profileHeader {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .followButton {
