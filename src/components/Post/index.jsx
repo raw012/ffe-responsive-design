@@ -8,13 +8,13 @@ const Post = ({ user, content, likes, dislikes }) => {
   return (
     <div className={styles.container}>
       {/* Uncomment this during Activity #4 */}
-      {/* <Image
+      {<Image
         className={styles.dogImage}
         src={Dogs}
         width={500}
         height={300}
         alt="dogs"
-      /> */}
+      /> }
       <div className={styles.userInteractions}>
         <h3>{user}</h3>
         <div className={styles.likesContainer}>

@@ -54,5 +54,5 @@ Hint: any grid styling can be overridden with media query */
   grid-template-areas: "profile" "Create" "Posts";
   gap: 1rem;
 }
-
+/**/
 }
